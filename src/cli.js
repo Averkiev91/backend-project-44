@@ -1,7 +1,9 @@
-const readlineSync = require('readline-sync');
+import readlineSync from 'readline-sync';
 
-const name = readlineSync.question('May I have your name? ');
+const runGame = () => {
+  console.log('\nWelcome to the Brain Games!\n');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
+};
 
-console.log(`Hello, ${name}`);
-
-module.exports = name;
+export default runGame;
