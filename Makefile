@@ -5,4 +5,7 @@ npm-publish-dry-run:
 	npm publish --dry-run
 
 npm-publish:
-    npm publish
+	npm publish
+
+lint:
+	npx eslint .
