@@ -3,3 +3,6 @@ brain-games:
 
 npm-publish-dry-run:
 	npm publish --dry-run
+
+npm-publish:
+    npm publish
