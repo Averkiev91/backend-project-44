@@ -2,6 +2,6 @@ const readlineSync = require('readline-sync');
 
 const name = readlineSync.question('May I have your name? ');
 
-console.log('Hello, ' + name);
+console.log(`Hello, ${name}`);
 
 module.exports = name;
